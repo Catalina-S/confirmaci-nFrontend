@@ -38,7 +38,13 @@
         <label for="duration">Duración:</label>
         <input type="text" id="duration" required><br><br>
 
-        <button type="submit">Enviar</button>
+        <h2>Preparación o Confirmación del medicamento</h2>
+        <label for="medicationId">ID del Medicamento:</label>
+        <input type="text" id="medicationId" placeholder="Escribe el ID aquí"><br><br>
+
+        <button onclick="prepararMedicamento()">📦 Preparar Medicamento</button>
+        <button onclick="confirmarMedicamento()">✅ Confirmar Entrega</button>
+
     </form>
 
     <script src="app.js"></script>
